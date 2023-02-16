@@ -1,0 +1,27 @@
+{
+  "name": "@ignite-ui/tokens",
+  "version": "1.0.0",
+  "description": "- Text\r - Heading \r - Box \r - Button\r - TextInput\r - TextArea\r - CheckBox\r - Avatar \r - Multishop",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsup src/index.ts --format esm, js --dts",
+    "dev": "tsup src/index.ts --format esm, js --dts --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ViniciusdePSouza/Design-System_Ignite-.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ViniciusdePSouza/Design-System_Ignite-/issues"
+  },
+  "homepage": "https://github.com/ViniciusdePSouza/Design-System_Ignite-#readme",
+  "devDependencies": {
+    "tsup": "^6.6.3",
+    "typescript": "^4.9.5"
+  }
+}
